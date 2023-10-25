@@ -1,0 +1,166 @@
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #E9EEF6;
+  padding-top: 50px;
+}
+
+.card-container {
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper {
+  width: 270px;
+  height: 200px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder {
+  width: 100%;
+  height: 98%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80px;
+  height: 30px;
+  padding: 1px;
+  text-align: center;
+}
+
+.task-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding: 40px 100px;
+}
+
+
+.card-holder i {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #5D93E1;
+}
+
+.card-holder i:hover {
+  color: #F9D288;
+}
+
+
+.task-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-card {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.task-card button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.confirm-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px #ccc;
+  display: none;
+}
+
+.confirm-delete p {
+  margin: 5px 0;
+}
+
+.confirm-delete button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* .delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #afeeee;
+  opacity: 0.6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button:hover {
+  background-color:#e0ffff;
+  opacity: 1;
+  ;
+}
+
+.delete-button::after {
+  content: '';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+} */
+
+
+.edit-icon {
+  font-size: 0.5em; 
+  margin-right: 2px; 
+}
+
+.close-icon {
+  font-size: 1.2em; 
+  margin-left: 5px; 
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;  
+  border: none;
+  cursor: pointer;
+}
